@@ -1,0 +1,8 @@
+matplotlib
+dill
+scikit-image
+opencv-python
+torchvision>=0.2.2
+dominate>=2.3.1
+torch>=1.2.0
+scipy==1.1.0
