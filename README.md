@@ -59,5 +59,15 @@ python test_wavelet.py --name [name_of_experiment] --dataset_name [dataset_name]
 
 Use `--results_dir` to specify the output directory. `--how_many` will specify the maximum number of images to generate. By default, it loads the latest checkpoint. It can be changed using `--which_epoch`.
 
+## Citation
+If you find this code helpful for your research, please cite our papers.
+```
+@inproceedings{yu2021wavefill,
+  title={WaveFill: A Wavelet-based Generation Network for Image Inpainting},
+  author={Yu, Yingchen and Zhan, Fangneng and Lu, Shijian and Pan, Jianxiong and Ma, Feiying and Xie, Xuansong and Miao, Chunyan},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  year={2021}
+}
+```
 ## Acknowledgments
 This code borrows heavily from [SPADE](https://github.com/NVlabs/SPADE), [CoCosNet](https://github.com/microsoft/CoCosNet), [PEN-Net](https://github.com/researchmm/PEN-Net-for-Inpainting) and [Edge-Connect](https://github.com/knazeri/edge-connect), we apprecite the authors for sharing their codes. We also thank Cotter for sharing the [pytorch_wavelets](https://github.com/fbcotter/pytorch_wavelets/) code.
