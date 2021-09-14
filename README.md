@@ -1,4 +1,4 @@
-# WaveFill: A Wavelet-based Generation Network for Image Inpainting
+# WaveFill: A Wavelet-based Generation Network for Image Inpainting (ICCV 2021)
 
 ## Installation
 ```bash
